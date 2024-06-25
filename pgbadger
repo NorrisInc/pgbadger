@@ -2414,7 +2414,7 @@ sub gen_database_report
 		}
 		else
 		{
-			&logmsg('LOG', "Хорошо, создаю отчет $extent...");
+			&logmsg('LOG', "Хорошо, создаю отчет $extens...");
 		}
 
 		$fh = new IO::File ">$current_out_file";
@@ -10653,7 +10653,7 @@ sub print_vacuum
 	if ($graph)
 	{
 		$drawn_graphs{autovacuum_graph} = &jqplot_linegraph($graphid++, 'autovacuum_graph', $graph_data{vcount}, $graph_data{acount},
-		'', 'Действия автоочистки (в среднем за' . $avg_mines . ' минут)', '', 'VACUUMs', 'ANALYZEs'
+		'', 'Действия автоочистки (в среднем за' . $avg_minutes . ' минут)', '', 'VACUUMs', 'ANALYZEs'
 		);
 
 		$drawn_graphs{autovacuumspersecond_graph} = &jqplot_linegraph($graphid++, 'autovacuumspersecond_graph', $graph_data{autovacuum_max},
