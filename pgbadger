@@ -7,6 +7,9 @@
 # For license terms, see the LICENSE file.
 #------------------------------------------------------------------------------
 #
+# Translated to Russian by Thomas Norris (Mikhail Shatov)
+#
+#------------------------------------------------------------------------------
 # Settings in postgresql.conf
 #
 # You should enable SQL query logging with log_min_duration_statement >= 0
