@@ -2553,10 +2553,10 @@ sub set_file_list
 		# if it is not a remote file store the file if it is not an empty file
 		if (!$remote_host && $file !~ /^(http[s]*|[s]*ftp|ssh):/i)
 		{
-			localdie("FATAL: logfile \"$file\" must exist!\n") if (not -f $file);
+			localdie("FATAL: файл логов \"$file\" должен существовать!\n") if (not -f $file);
 			if (-z $file)
 			{
-				print "WARNING: file $file is empty\n" if (!$quiet);
+				print "WARNING: файл $file пустой\n" if (!$quiet);
 				next;
 			}
 			push(@lfiles, $file_orig);
