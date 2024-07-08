@@ -7397,7 +7397,7 @@ sub print_overall_statistics
 		<h2 class="col-md-12"><i class="glyphicon icon-dashboard"></i> Глобальная статистика</h2>
 			<div class="tabbable">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab-queries" data-toggle="tab"><i class="glyphicon icon-question-sign"></i> Запросы</a></ ли>
+					<li class="active"><a href="#tab-queries" data-toggle="tab"><i class="glyphicon icon-question-sign"></i> Запросы</a></li>
                     <li><a href="#tab-durations" data-toggle="tab"><i class="glyphicon icon-time"></i> Длительность</a></li>
                     <li><a href="#tab-events" data-toggle="tab"><i class="glyphicon icon-bullhorn"></i> События</a></li>
                     <li><a href="#tab-vacuums" data-toggle="tab"><i class="glyphicon icon-cogs"></i> Очистка</a></li>
@@ -10528,7 +10528,7 @@ sub print_analyze_per_table
 			<h3 class="">Ключевые значения</h3>
 			<div class="well key-figures">
 				<ul>
-					<li><span class="figure">$main_analyze[0] ($main_analyze[1])</span> <span class="figure-label">Основная анализируемая таблица (база данных $database)</span>< /ли>
+					<li><span class="figure">$main_analyze[0] ($main_analyze[1])</span> <span class="figure-label">Основная анализируемая таблица (база данных $database)</span></li>
                     <li><span class="figure">$total_count анализов</span> <span class="figure-label">Итого</span></li>
 				</ul>
 			</div>
@@ -10897,7 +10897,7 @@ sub print_vacuum_per_table
 			<h3 class="">Ключевые значения</h3>
 			<div class="well key-figures">
 				<ul>
-					<li><span class="figure">$main_vacuum[0] ($main_vacuum[1])</span> <span class="figure-label">Основная таблица в базе данных $database очищена</span></ ли>
+					<li><span class="figure">$main_vacuum[0] ($main_vacuum[1])</span> <span class="figure-label">Основная таблица в базе данных $database очищена</span></li>
                     <li><span class="figure">$total_count очисток</span> <span class="figure-label">Всего</span></li>
 				</ul>
 			</div>
